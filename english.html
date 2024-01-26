@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="english.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container" id="blur">
+        <div class="navbar">
+            <i class="fa-solid fa-circle-play" style="font-size: 80px; color: black;"></i>
+           <nav> <ul>
+            <li><a href="landingpage.html">Home</a> </li>
+            <li><a href="cartoon.html">Cartoon</a> </li>
+            <li> <a href="arabic.html">Arabic</a></li>
+            <li><a href="english.html">English</a></li> </li>
+        </ul></nav>
+        </div>
+        <div>   <p> Swipe Down To  find <br>All Your Favourite Movies . 
+             Just Click On It And  Enjoy Your Journey With Aflamna .</p></div>
+        <div class="content">
+         
+            <div class="c1">
+                <div class="one"> <img src="love again.jpeg" alt=""  onclick="toggle()"> 
+                    <p class="name" onclick="toggle()"> Love Again </p></div>
+            <div class="two"><img src="world war.jpeg" alt="" onclick="toggle1()"> <p class="name" onclick="toggle1()"> World War</p></div>
+        </div>
+           <div class="c2">
+            <div class="three"><img src="spiderman.jpeg" alt=""  onclick="toggle2()"><p class="name"  onclick="toggle2()"> Spider Man</p></div>
+            <div class="four"><img src="walking.jpeg" alt=""  onclick="toggle3()"><p class="name"  onclick="toggle3()"> The Walking Dead </p></div>
+            <div class="five"><img src="iron.jpeg" alt=""  onclick="toggle4()"><p class="name"  onclick="toggle4()"> Iron Man</p></div>
+            <div class="six"><img src="passenger.jpeg" alt=""  onclick="toggle5()"><p class="name"  onclick="toggle5()"> Passengers </p></div>
+           </div>
+          <div class="c3">
+           
+          </div>
+        </div>
+    </div>
+    <div id="popup">
+        <button onclick="toggle()">&times;</button>
+        <p> Release date : 2023<br> 
+        Directors : jennifer lee , chris buck <br> 
+    Country : USA </p>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/LbW1Yj6jHrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div id="popup1">
+        <button onclick="toggle1()">&times;</button>
+        <p> Release date : 2002 <br> 
+        Directors :SAm Rimi<br> 
+    Country : USA</p>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/_yhFofFZGcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div id="popup2">
+        <button onclick="toggle2()">&times;</button>
+        <p> Release date :  <br> 
+        Directors : Pete Dector <br> 
+    Country : USa</p>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/ie53R2HEZ6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </div>
+    <div id="popup3">
+        <button onclick="toggle3()">&times;</button>
+        <p> Release date :2001 <br> 
+        Directors : mike mitchell. <br> 
+    Country : USA</p>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/sfAc2U20uyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div> 
+    <div id="popup4">
+        <button onclick="toggle4()">&times;</button>
+        <p> Release date :2013 <br> 
+        Directors : Chris sanders. <br> 
+    Country : USA</p>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/Ke1Y3P9D0Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div id="popup5">
+        <button onclick="toggle5()">&times;</button>
+        <p> Release date :2016 <br> 
+        Directors : john lasseter. <br> 
+    Country : USA</p>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/7BWWWQzTpNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <script>
+    function toggle() {
+        var blur= document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup= document.getElementById('popup');
+        popup.classList.toggle('active')
+
+    }
+    function toggle1() {
+        var blur= document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup1= document.getElementById('popup1');
+        popup1.classList.toggle('active')
+
+    }
+    function toggle2() {
+        var blur= document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup2= document.getElementById('popup2');
+        popup2.classList.toggle('active')
+
+    }
+    function toggle3() {
+        var blur= document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup3= document.getElementById('popup3');
+        popup3.classList.toggle('active')
+
+    }
+    function toggle4() {
+        var blur= document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup4= document.getElementById('popup4');
+        popup4.classList.toggle('active')
+
+    }
+    function toggle5() {
+        var blur= document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup5= document.getElementById('popup5');
+        popup5.classList.toggle('active')
+
+    }
+    </script>
+</body>
+</html>
